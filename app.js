@@ -1,1 +1,1 @@
-console.log('Spell Champ Kids');
+console.log('v2');

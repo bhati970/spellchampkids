@@ -1,1 +1,5 @@
-body{font-family:Arial;background:#eef7ff;}
+body{font-family:Arial;background:#eef7ff;margin:0}
+header{background:#4caf50;color:#fff;padding:20px;text-align:center}
+.menu{max-width:500px;margin:20px auto;display:grid;gap:12px}
+button{padding:16px;font-size:18px;border:none;border-radius:10px;background:#2196f3;color:#fff}
+button:disabled{background:#999}

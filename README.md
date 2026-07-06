@@ -1,2 +1,2 @@
-# Spell Champ Kids
-Starter project.
+# Spell Champ Kids v2
+Basic navigation added.
