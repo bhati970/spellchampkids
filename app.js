@@ -1,0 +1,1 @@
+console.log('Spell Champ Kids');
