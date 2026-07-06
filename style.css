@@ -1,5 +1,58 @@
-body{font-family:Arial;background:#eef7ff;margin:0}
-header{background:#4caf50;color:#fff;padding:20px;text-align:center}
-.menu{max-width:500px;margin:20px auto;display:grid;gap:12px}
-button{padding:16px;font-size:18px;border:none;border-radius:10px;background:#2196f3;color:#fff}
-button:disabled{background:#999}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    min-height:100vh;
+}
+
+header{
+    text-align:center;
+    color:white;
+    padding:30px;
+}
+
+header h1{
+    font-size:42px;
+}
+
+header p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+.menu{
+    width:90%;
+    max-width:500px;
+    margin:30px auto;
+    display:grid;
+    gap:20px;
+}
+
+.menu button{
+    padding:18px;
+    border:none;
+    border-radius:15px;
+    font-size:22px;
+    cursor:pointer;
+    background:white;
+    color:#333;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.menu button:hover{
+    transform:scale(1.05);
+    background:#FFD54F;
+}
+
+footer{
+    text-align:center;
+    color:white;
+    margin-top:40px;
+    font-size:18px;
+}
