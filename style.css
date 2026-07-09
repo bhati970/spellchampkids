@@ -86,3 +86,150 @@ footer{
     font-size:22px;
     font-weight:bold;
 }
+/* Spell Champ Kids v3 */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#7ED6FF,#B8F2E6);
+    min-height:100vh;
+}
+
+.background{
+    width:100%;
+    min-height:100vh;
+    padding:20px;
+}
+
+.topBar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-bottom:30px;
+
+}
+
+.logo{
+
+font-size:34px;
+
+font-weight:700;
+
+color:#ffffff;
+
+}
+
+.starBox{
+
+background:#FFD54F;
+
+padding:10px 20px;
+
+border-radius:50px;
+
+font-size:24px;
+
+font-weight:bold;
+
+}
+
+.welcome{
+
+text-align:center;
+
+margin-bottom:40px;
+
+}
+
+.welcome h1{
+
+font-size:48px;
+
+color:white;
+
+}
+
+.welcome p{
+
+font-size:22px;
+
+color:white;
+
+margin-top:10px;
+
+}
+
+.menu{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+gap:20px;
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+.menu button{
+
+background:white;
+
+border:none;
+
+border-radius:25px;
+
+padding:35px;
+
+cursor:pointer;
+
+transition:.3s;
+
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+font-size:28px;
+
+}
+
+.menu button h2{
+
+margin-top:15px;
+
+font-size:24px;
+
+color:#444;
+
+}
+
+.menu button:hover{
+
+transform:translateY(-8px);
+
+background:#FFF176;
+
+}
+
+.bottomBar{
+
+margin-top:50px;
+
+text-align:center;
+
+font-size:30px;
+
+font-weight:bold;
+
+color:white;
+
+}
